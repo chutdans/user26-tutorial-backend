@@ -3,10 +3,11 @@ name: DEV - Dispatch
 on: 
   push:
     branches:    
-      - main
+      - develop
   workflow_dispatch:
 
   jobs:
+
     unitest:
     name: UnitTest (XUnit)
     runs-on: ubuntu-latest
@@ -36,4 +37,4 @@ on:
       with:
         name: Unit Test Results
         path: '${{ github.workspace }}/coveragereport/*'
-
+        

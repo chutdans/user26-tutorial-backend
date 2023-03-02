@@ -5,10 +5,9 @@ on:
     branches:    
       - develop
   workflow_dispatch:
-
-  jobs:
-
-    unitest:
+  
+jobs:
+  unitest:
     name: UnitTest (XUnit)
     runs-on: ubuntu-latest
     environment:

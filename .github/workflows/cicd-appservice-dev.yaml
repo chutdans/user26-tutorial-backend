@@ -6,7 +6,7 @@ on:
       - develop
   workflow_dispatch:
 
-  jobs:
+  job:
   unitest:
     name: UnitTest (XUnit)
     runs-on: ubuntu-latest

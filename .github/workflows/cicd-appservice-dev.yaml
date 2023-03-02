@@ -8,7 +8,7 @@ on:
 
   jobs:
 
-    unitest:
+  unitest:
     name: UnitTest (XUnit)
     runs-on: ubuntu-latest
     environment:
@@ -37,4 +37,3 @@ on:
       with:
         name: Unit Test Results
         path: '${{ github.workspace }}/coveragereport/*'
-        
